@@ -21,7 +21,6 @@ const BookContextProvider = (props) => {
   const [state, setState] = useState({
     books: getBooks,
   });
-  console.log(Math.floor(Math.random() * authorsImage.length));
   const addBook = (e) => {
     e.preventDefault();
     const realID = state.books.length
