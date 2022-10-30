@@ -34,7 +34,7 @@ input {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  padding-top: 3em;
+  padding: 3em 0;
 }
 
 .App {
