@@ -11,7 +11,7 @@ const BookList = () => {
           return (
             <BookDetail
               books={book}
-              key={book.id}
+              key={id}
               id2={id}
               removeBook={removeBook}
             />
